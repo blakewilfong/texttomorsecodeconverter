@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c0eb7ba-6040-4bdb-8bd8-a6cf84638b05" name="Changes" comment="clean up the f strings">
-      <change afterPath="$PROJECT_DIR$/dictionary.py" afterDir="false" />
+    <list default="true" id="4c0eb7ba-6040-4bdb-8bd8-a6cf84638b05" name="Changes" comment="translate to and from morse code and english. clean up some typos. add while loop to keep app running.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -113,13 +112,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710256519561</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="translate to and from morse code and english. clean up some typos. add while loop to keep app running.">
+      <option name="closed" value="true" />
+      <created>1710258784058</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710258784058</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="added morse code to english translation" />
     <MESSAGE value="clean up the f strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up the f strings" />
+    <MESSAGE value="translate to and from morse code and english. clean up some typos. add while loop to keep app running." />
+    <option name="LAST_COMMIT_MESSAGE" value="translate to and from morse code and english. clean up some typos. add while loop to keep app running." />
   </component>
 </project>
