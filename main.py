@@ -16,8 +16,23 @@ morse_code_dict = {
     '(': '-.--.', ')': '-.--.-', '=': '-...-', ' ': ' ',
 }
 
-english_phrase = list(input("Welcome to the Morse Code Converter. "
-                  "Please enter the word or phrase you would like converted into morse code").upper())
 
-morse_code_phrase = [morse_code_dict[x] for x in english_phrase]
-print(morse_code_phrase)
+
+choice = int(input("Welcome to the Morse Code Converter. "
+                   "If converting to Morse Code, type 1, if converting to English type 2."))
+
+if choice == 1:
+    english_phrase = list(input("Please enter the word or phrase you would like converted into morse code").upper())
+    morse_code_phrase = [morse_code_dict[character] for character in english_phrase]
+    translation = ", ".join(str(character) for character in morse_code_phrase)
+    print(f"Your phrase in morse code is {translation}")
+
+elif choice ==2:
+    morse_code_phrase = input("Please enter the word or phrase in Morse Code that you would like to convert"
+                              "to English.  Separate each character with a comma")
+    morse_code_list = morse_code_phrase.split(",")
+    print(morse_code_list)
+    morse_code_dict = {value: key for key, value in morse_code_dict.items()}
+    english_phrase_list = [morse_code_dict[character] for character in morse_code_list]
+    translation = "".join(str(character) for character in english_phrase_list)
+    print(translation)
